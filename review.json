@@ -1,0 +1,15 @@
+{
+  "znamka": 6,
+  "slabiny": [
+    "Sortiment (PC i mobil): v řádcích je číslování 01–10, což je zakázaný vzor, který už se opakoval u Kameníka a Hobby Modelu. Nápad s technickým výkresem končí s hero a zbytek stránky je obyčejný seznam. Opravit: čísla zrušit, výřezy produktů zvětšit z ~50 px na ~120 px a ke každému řádku dát kótovací štítek ve stylu hero (typ, např. ‚PT-1900‘ nebo ‚coil‘, a k čemu slouží). Klikat má jít na celý řádek, ne jen na odkaz ‚v e-shope‘.",
+    "Typografie a rytmus od Sortimentu dolů na PC: Barlow Condensed je ve slabém řezu a verzálkách, běžný text má ~13 px a je světle šedý (úvod Sortimentu, karty Pre koho, Servis, O firme). Servis je navíc velký šedý pruh, kde v levém sloupci stojí jen nadpis. Opravit: text na 16–17 px v barvě #26232b, nadpisy h2 v řezu 500. Do Servisu vlevo dát fotku nářadí z podkladů (foto-02/03) a štítky značek MCN, MAX, BEA… nechat vedle textu. Osiřelý odstavec pod kartami Pre koho přesunout nad karty jako jejich úvod.",
+    "Mobil 390 px: na první obrazovce chybí hlavička s logem (snímek 1 začíná až nadpisem ‚VEĽKOOBCHOD‘). Logo je zvětšené 1,6× (zdroj 200 px, vykresleno 320 px) a fotka budovy v O firme 1,49×. Opravit: přidat sticky hlavičku s logem širokým nejvýš 140 px a tlačítkem DOPYT, logo vzít ve větším rozlišení nebo jako SVG, fotku budovy omezit na 480 px šířky. Ve formuláři opravit ‚Priloha‘ na ‚Príloha‘ a nativní anglické ‚Choose File‘ nahradit vlastním tlačítkem ‚Vybrať súbor‘."
+  ],
+  "silne": [
+    "Logo PROFIX je vlevo v hlavičce (na PC) a celý web drží fialovou #91288c z brandu jako jediný akcent na bílé. Je světlý a klidný, bez tmavého luxusního vzhledu.",
+    "Hero s paletovacím stolem PT-1900 a technickými kótami a štítky je konkrétní nápad z oboru, a produkt je vyfocený přímo od klienta.",
+    "Do 5 sekund je jasné, co firma dělá a pro koho, CTA ‚Poslať dopyt‘ je vidět hned a formulář má pole na přílohu (výkres nebo seznam). Na mobilu nic nepřetéká."
+  ],
+  "verdikt": "opravit: čistý, brandově správný katalogový web, ale koncept výkresu žije jen v hero, sortiment je očíslovaný seznam a text je drobný a bledý. Na mobilu chybí logo v hlavičce. Po třech opravách výše má šanci na 8.",
+  "_hash": "1a3e4730c6d301d214595001c5724f075222fe0e"
+}

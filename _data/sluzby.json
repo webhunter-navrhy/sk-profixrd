@@ -1,0 +1,62 @@
+[
+ {
+  "nazev": "Páskované klince",
+  "popis": "Klince v papieri, v plaste a na drôte pre pneumatické klincovačky.",
+  "foto": "p02.png",
+  "kota": "klince · papier, plast, drôt"
+ },
+ {
+  "nazev": "Klince vo zvitku",
+  "popis": "Klince vo zvitku pre coil klincovačky.",
+  "foto": "p13.png",
+  "kota": "coil · zvitok"
+ },
+ {
+  "nazev": "Spony priemyselné",
+  "popis": "Spony pre sponkovačky na široké a stredné spony.",
+  "foto": "p05.png",
+  "kota": "spony · široké a stredné"
+ },
+ {
+  "nazev": "Spony z tenkých drôtov",
+  "popis": "Spony pre sponkovačky na tenké drôty, špeciálne spojovače a kolíčky bez hlavičky.",
+  "foto": "p04.png",
+  "kota": "spony · tenký drôt"
+ },
+ {
+  "nazev": "Paletovacie stoly",
+  "popis": "Mechanické a pneumatické paletovacie a montážne stoly, napríklad PT-1900.",
+  "foto": "p09.png",
+  "kota": "stôl · PT-1900"
+ },
+ {
+  "nazev": "Stroje na výrobu paliet",
+  "popis": "Linky a stroje pre výrobu paliet a drevených obalov.",
+  "foto": "p15.png",
+  "kota": "linky · palety"
+ },
+ {
+  "nazev": "Paletové rezivo",
+  "popis": "Paletové rezivo, prírezy a lisované paletové kocky.",
+  "foto": "p10.png",
+  "kota": "rezivo · kocky"
+ },
+ {
+  "nazev": "Skracovacie píly",
+  "popis": "Skracovacie píly a drevoobrábacie stroje, napríklad KP 500 OPTIM.",
+  "foto": "p12.png",
+  "kota": "píly · KP 500 OPTIM"
+ },
+ {
+  "nazev": "Špirálové hadice",
+  "popis": "Hadice a balancéry ako príslušenstvo k pneumatickému náradiu.",
+  "foto": "p11.png",
+  "kota": "hadice · balancéry"
+ },
+ {
+  "nazev": "Značenie paliet",
+  "popis": "Priemyselné tlačiarne na značenie drevených paliet.",
+  "foto": "p14.png",
+  "kota": "tlačiarne · značenie"
+ }
+]

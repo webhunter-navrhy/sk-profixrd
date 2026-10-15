@@ -1,0 +1,196 @@
+{
+ "slug": "profixrd",
+ "zdroj_url": "https://www.profixrd.sk",
+ "firma": "PROFIX RD, s.r.o.",
+ "obor": [
+  "e-shop / obchod",
+  "autoservis / auta"
+ ],
+ "ico": "",
+ "ares": null,
+ "kontakty": {
+  "emaily": [],
+  "telefony": [],
+  "adresa": "",
+  "socialni_site": [
+   "https://www.facebook.com/Profix-RD-129737664368547",
+   "https://www.facebook.com/Profix-RD-129737664368547/",
+   "https://www.facebook.com/sharer.php?u=https%3A%2F%2Fprofixrd.sk&t=ProfiX%20RD%20s.r.o."
+  ]
+ },
+ "logo": {
+  "soubor": "podklady/logo.png",
+  "zdroj": "https://profixrd.sk/wp-content/uploads/2019/02/profix-logo-watermark.png",
+  "rozmery": [
+   200,
+   45
+  ]
+ },
+ "barvy": {
+  "css_promenne": {},
+  "z_css": [
+   "#2ea3f2",
+   "#91288c",
+   "#be4c46",
+   "#006799",
+   "#511295",
+   "#3858e9"
+  ],
+  "z_loga": [
+   "#91288c"
+  ],
+  "theme_color": null,
+  "doporucene": [
+   "#91288c",
+   "#2ea3f2"
+  ]
+ },
+ "fotky": [
+  {
+   "soubor": "podklady/foto/foto-01.jpg",
+   "url": "http://profixrd.sk/wp-content/uploads/2020/08/profixrd-slider-pozadie.jpg",
+   "sirka": 1920,
+   "vyska": 575,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-02.png",
+   "url": "http://profixrd.sk/wp-content/uploads/2020/08/profix-slider-01-05.png",
+   "sirka": 414,
+   "vyska": 414,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-03.png",
+   "url": "http://profixrd.sk/wp-content/uploads/2020/08/profix-slider-01-06-1.png",
+   "sirka": 414,
+   "vyska": 414,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-04.png",
+   "url": "http://profixrd.sk/wp-content/uploads/2020/08/profix-slider-03-07.png",
+   "sirka": 500,
+   "vyska": 411,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-05.png",
+   "url": "http://profixrd.sk/wp-content/uploads/2020/08/profix-slider-03-06.png",
+   "sirka": 500,
+   "vyska": 405,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-06.png",
+   "url": "http://profixrd.sk/wp-content/uploads/2020/08/profix-slider-04-06.png",
+   "sirka": 500,
+   "vyska": 500,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-07.png",
+   "url": "http://profixrd.sk/wp-content/uploads/2020/08/profix-slider-04-05.png",
+   "sirka": 500,
+   "vyska": 500,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-08.png",
+   "url": "http://profixrd.sk/wp-content/uploads/2020/08/profix-slider-04-07.png",
+   "sirka": 500,
+   "vyska": 500,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-09.png",
+   "url": "http://profixrd.sk/wp-content/uploads/2022/04/Paletovaci-stol-PT-1900.png",
+   "sirka": 600,
+   "vyska": 600,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-10.png",
+   "url": "http://profixrd.sk/wp-content/uploads/2020/08/profix-slider-05-02.png",
+   "sirka": 500,
+   "vyska": 329,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-11.png",
+   "url": "http://profixrd.sk/wp-content/uploads/2020/08/profix-slider-05-04.png",
+   "sirka": 500,
+   "vyska": 356,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-12.png",
+   "url": "http://profixrd.sk/wp-content/uploads/2020/08/profix-slider-06-01b-1.png",
+   "sirka": 800,
+   "vyska": 453,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-13.png",
+   "url": "http://profixrd.sk/wp-content/uploads/2020/08/profix-slider-01-07.png",
+   "sirka": 468,
+   "vyska": 468,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-14.png",
+   "url": "https://profixrd.sk/wp-content/uploads/2024/10/profixrd-masterslider-limitronic-znacenie-paliet-04.png",
+   "sirka": 500,
+   "vyska": 500,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-15.png",
+   "url": "https://profixrd.sk/wp-content/uploads/2024/10/profixrd-masterslider-limitronic-znacenie-paliet-02.png",
+   "sirka": 712,
+   "vyska": 350,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-16.jpg",
+   "url": "http://profixrd.sk/wp-content/uploads/2020/08/profixrd-slider-pozadie-mobil.jpg",
+   "sirka": 720,
+   "vyska": 640,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-17.jpg",
+   "url": "https://profixrd.sk/wp-content/uploads/2022/10/profixrd_top-firma-480x487.jpg",
+   "sirka": 480,
+   "vyska": 487,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-18.jpg",
+   "url": "https://profixrd.sk/wp-content/uploads/2024/10/profixrd-nova-budova-zlava-NEW-480x277.jpg",
+   "sirka": 480,
+   "vyska": 277,
+   "alt": ""
+  }
+ ],
+ "fakta": [
+  {
+   "typ": "odstavec",
+   "text": "chcete sa na niečo opýtať ? neváhajte nás kontaktovať",
+   "zdroj": "https://profixrd.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Táto webová stránka používa súbory cookie na zlepšenie vášho zážitku pri prechádzaní webom. Z týchto súborov cookie sa vo vašom prehliadači ukladajú súbory cookie, ktoré sú kategorizované podľa potreby, pretože sú nevyhnutné pre fungovanie základných funkcií webovej stránky. Používame aj cookies tretích strán, ktoré nám pomáhajú analyzovať a pochopiť, ako používate túto webovú stránku. Tieto cookies budú uložené vo vašom prehliadači iba s vaším súhlasom. Máte tiež možnosť zrušiť tieto cookies. Zrušenie niektorých z týchto súborov cookie však môže mať vplyv na váš zážitok z prehliadania.",
+   "zdroj": "https://profixrd.sk/"
+  }
+ ],
+ "chybi": [
+  "e-mail",
+  "telefon (do webu, ne do mailů)",
+  "IČO",
+  "adresa / provozovna",
+  "potvrzení služeb a ceníku (nic nevymýšlet)"
+ ],
+ "popis_webu": "Prvotriedne klincovačky a sponkovačky zn. MCN, paletovacie stroje, tesárske kovania, obalový materiál, klince, spony, skrutky, podložky, závitové tyče"
+}

@@ -1,0 +1,55 @@
+{
+ "slug": "sk-profixrd",
+ "nazev": "PROFIX RD",
+ "url": "https://webhunter-navrhy.github.io/sk-profixrd/",
+ "base": "/sk-profixrd/",
+ "lang": "sk",
+ "popis": "Veľkoobchod s pneumatickým náradím, klincami, sponami a spojovacím materiálom pre výrobcov nábytku, paliet a drevostavieb. Liptovský Mikuláš.",
+ "navrh": true,
+ "domena": "",
+ "og_image": "p09.png",
+ "logo": "logo.png",
+ "theme_color": "#91288c",
+ "typ": "LocalBusiness",
+ "ico": "46621504",
+ "kontakt": {
+  "email": "info@profixrd.sk",
+  "telefon": "+421 44/38 11 202",
+  "adresa": {
+   "ulice": "Priemyselná 4783/42",
+   "psc": "031 01",
+   "mesto": "Liptovský Mikuláš",
+   "zeme": "SK"
+  }
+ },
+ "oteviraci_doba": [],
+ "sameas": [],
+ "cenove_rozpeti": "",
+ "formular": {
+  "endpoint": "",
+  "demo": true,
+  "predmet": "Dopyt z webu profixrd.sk"
+ },
+ "nav": [
+  {
+   "text": "Sortiment",
+   "href": "#sortiment"
+  },
+  {
+   "text": "Pre koho",
+   "href": "#pre-koho"
+  },
+  {
+   "text": "Servis",
+   "href": "#servis"
+  },
+  {
+   "text": "O firme",
+   "href": "#o-nas"
+  },
+  {
+   "text": "Kontakt",
+   "href": "#kontakt"
+  }
+ ]
+}

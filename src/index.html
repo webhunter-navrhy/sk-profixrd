@@ -1,0 +1,103 @@
+{% extends "_base.html" %}
+{% set titulek = 'PROFIX RD – pneumatické náradie, klince a spony | Liptovský Mikuláš' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="stitok">Veľkoobchod · Liptovský Mikuláš</p>
+      <h1>Profesionálne spájanie materiálov</h1>
+      <p class="perex">Pneumatické náradie, klince, spony a spojovací materiál pre výrobcov nábytku, paliet, drevodomov a pre tesárske a stavebné firmy.</p>
+      <p class="akcie"><a class="tlacitko" href="#kontakt">Poslať dopyt</a><a class="odkaz" href="#sortiment">Pozrieť sortiment</a></p>
+    </div>
+    <figure class="hero-obr">
+      {{ img('p09.png', 'Paletovací stôl PT-1900', sizes='(min-width: 60rem) 40rem, 92vw', eager=True) }}
+      <svg class="koty" viewBox="0 0 600 600" aria-hidden="true" focusable="false">
+        <g fill="none" stroke="#91288c" stroke-width="1.5">
+          <path d="M40 568H590M40 558V578M590 558V578"/>
+          <path d="M14 95V510M4 95H24M4 510H24"/>
+          <path d="M70 62L62 236M62 236l-4-9M62 236l6-8"/>
+          <path d="M520 62L534 292M534 292l-6-9M534 292l5-9"/>
+        </g>
+      </svg>
+      <span class="kota k-a">pneumatické klincovačky</span>
+      <span class="kota k-b">na balancéroch</span>
+      <span class="kota k-c">Paletovací stôl PT-1900</span>
+    </figure>
+  </div>
+</section>
+
+<section class="sekce" id="sortiment">
+  <div class="wrap">
+    <h2>Sortiment</h2>
+    <p class="uvod">Pneumatické klincovačky a sponkovačky, akumulátorové a plynové náradie, skrutky, kotvy aj závitové tyče nájdete v kompletnom katalógu a e-shope na profixrd.sk. Tu je výber z ponuky.</p>
+    <ul class="sortiment" role="list">
+      {% for s in data.sluzby %}
+      <li class="riadok">
+        <div class="riadok-foto">{{ img(s.foto, s.nazev, sizes='(min-width: 60rem) 10rem, 96px') }}</div>
+        <div class="riadok-text"><h3><a class="eshop" href="https://profixrd.sk" rel="noopener">{{ s.nazev }}</a></h3><p>{{ s.popis }}</p></div>
+        <span class="stitok-kota">{{ s.kota }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="sekce" id="pre-koho">
+  <div class="wrap">
+    <h2>Pre koho pracujeme</h2>
+    <p class="uvod">V našich produktoch nájdu optimálne, efektívne a cenovo dostupné riešenie pri spájaní najmä drevených materiálov.</p>
+    <ul class="dlazdice" role="list">
+      <li><h3>Výrobcovia nábytku</h3><p>Spájanie drevených a čalúnených dielov, čalúnnické zariadenia.</p></li>
+      <li><h3>Palety a drevené obaly</h3><p>Stoly, stroje a spojovací materiál pre výrobu paliet.</p></li>
+      <li><h3>Drevodomy a sendvičové panely</h3><p>Klince, skrutky a pneumatické náradie pre montované konštrukcie.</p></li>
+      <li><h3>Stavebné, strechárske a tesárske firmy</h3><p>Skrutky na tesárske kovanie, kotvy a stavebné klince.</p></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sekce servis" id="servis">
+  <div class="wrap dva">
+    <h2>Servis náradia</h2>
+    <div>
+      <p>Servisné stredisko opravuje pneumatické a plynové klincovačky a sponkovačky už viac ako 20 rokov. Náradie opravujú vyškolení zamestnanci, aby sa Vám vrátilo kompletne funkčné.</p>
+      <ul class="znacky" role="list"><li>MCN</li><li>MAX</li><li>BeA</li><li>Bostitch</li><li>B.PRO</li></ul>
+      <p class="pozn">Servisujeme aj ďalších výrobcov po konzultácii so servisným technikom.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sekce svetla" id="o-nas">
+  <div class="wrap dva">
+    <div class="o-foto">{{ img('budova.jpg', 'Sídlo spoločnosti PROFIX RD v Liptovskom Mikuláši', sizes='(min-width: 60rem) 34rem, 90vw') }}</div>
+    <div>
+      <h2>O firme</h2>
+      <p>Veľkoobchodným predajom pneumatického náradia a spojovacieho materiálu sa zaoberáme od svojho založenia. Nechceme ponúkať iba tovar, ale pomôcť Vám zrýchliť a zefektívniť prácu.</p>
+      <p>Pri výbere vychádzame z renomovaných zahraničných dodávateľov, priamych a rýchlych dodávok a sortimentu, ktorý rozširujeme podľa požiadaviek zákazníkov.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sekce" id="kontakt">
+  <div class="wrap dva">
+    <div>
+      <h2>Kontakt</h2>
+      <p class="adresa"><strong>PROFIX RD, s.r.o.</strong><br>Priemyselná 4783/42<br>031 01 Liptovský Mikuláš</p>
+      <p>IČO {{ site.ico }}<br><a href="tel:+421443811202">+421 44/38 11 202</a><br><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>
+      <p class="pozn">Kancelária a e-shop. Kontakty na obchodných a technických riaditeľov sú na profixrd.sk/kontakt.</p>
+    </div>
+    <div>
+      <h3>Dopyt</h3>
+      <form class="formular" method="post" data-endpoint="" data-demo="1">
+        <label>Meno <input name="jmeno" autocomplete="name" required></label>
+        <label>E-mail <input name="email" type="email" autocomplete="email" required></label>
+        <label>Čo potrebujete (typ náradia, spojovací materiál, množstvo) <textarea name="zprava" rows="5" required></textarea></label>
+        <label>Príloha (napr. výkres alebo zoznam) <input name="priloha" type="file"></label>
+        <div class="past" aria-hidden="true"><label>Nevyplňovať <input name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+        <button type="submit">Odoslať dopyt</button>
+        <p class="formular-stav" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+{% endblock %}
