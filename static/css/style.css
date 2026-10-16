@@ -179,3 +179,4 @@ h2{font-weight:500}
  .servis .dva{align-items:start}
  body{font-size:1.125rem}
 }
+.servis-foto{margin-top:var(--space-3);background:#fff;max-width:20rem}.servis-foto img{width:100%;mix-blend-mode:multiply}
